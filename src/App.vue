@@ -5,26 +5,25 @@
       color="#D46A6A"
       dark
     >
-      <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          :src="require('../public/favicon.svg')"
-          transition="scale-transition"
-          width="40"
-        />
-      </div>
+    <v-app-bar-title>VAXINATION</v-app-bar-title>
+      
 
       <v-spacer></v-spacer>
-
-      <v-btn
-        href="https://github.com/abhilashkulkarniofficial/vue-boilerplate"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Project</span>
-        <v-icon>mdi-github</v-icon>
+    <v-btn href="https://github.com/abhilashkulkarniofficial/vue-boilerplate" target="_blank" text>
+      <span class="no-decoration">Level</span>
+        <v-icon small>mdi-numeric-2-box-multiple</v-icon>
+      </v-btn>
+    
+    <v-btn href="https://github.com/abhilashkulkarniofficial/vue-boilerplate" target="_blank" text>
+      <span>20</span>
+        <v-icon small>mdi-alpha-x-circle</v-icon>
+      </v-btn>
+    <v-btn href="https://github.com/abhilashkulkarniofficial/vue-boilerplate" target="_blank" text>
+      <span>10</span>
+        <v-icon small>mdi-bitcoin</v-icon>
+      </v-btn>
+      <v-btn href="https://github.com/abhilashkulkarniofficial/vue-boilerplate" target="_blank" icon>
+        <v-icon>mdi-account</v-icon>
       </v-btn>
     </v-app-bar>
 
@@ -51,3 +50,8 @@ export default {
   }),
 };
 </script>
+<style scoped>
+.no-decoration {
+  text-decoration: none !important;
+}
+</style>
