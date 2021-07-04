@@ -1,6 +1,6 @@
 <template>
-    <v-container fill-height fluid>
-        <v-card width="100%" height="100%" color="#808080">
+    <v-container fill-height fluid >
+        <v-card width="100%" height="100%">
           <v-card-title>Knowledge</v-card-title>
           <v-card-text>
               <v-timeline dense>

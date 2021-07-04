@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import search from './modules/search'
+import user from './modules/user'
+import createPersistedState from "vuex-persistedstate";
 
 Vue.use(Vuex)
 
@@ -8,7 +9,8 @@ const debug = process.env.NODE_ENV !== 'production'
 
 export default new Vuex.Store({
   modules: {
-    search
+    user
   },
-  strict: debug
+  strict: debug,
+  plugins: [createPersistedState()]
 })

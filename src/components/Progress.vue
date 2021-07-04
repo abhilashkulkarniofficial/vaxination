@@ -1,7 +1,7 @@
 <template>
     <v-container fill-height fluid ma-0 pa-0>
-        <v-card width="100%" height="100%" color="#808080">
-          <v-card-title>Your Progress</v-card-title>
+        <v-card width="100%" height="100%">
+          <v-card-title class="justify-center">Your Timeline</v-card-title>
           <v-card-text>
               <v-timeline dense>
                 <v-timeline-item icon="mdi-calendar" fill-dot color="red lighten-2">
